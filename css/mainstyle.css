@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font-weight: normal;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    background: url('/images/banner.jpg') no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    padding: 65px 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    font-size: 13px;
+    background-color: #555;
+    background-image: linear-gradient(#777 50%,#555 50%);
+    border-radius: 4px;
+}
+nav li{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #444;
+}
+nav li a{
+    display: inline-block;
+    width: 100%;
+    padding: 0.6rem 0.8rem 0.4rem;
+    color: #ccc;
+    cursor: pointer;
+}
+nav li:not(:last-child):hover{
+    background-color: #444;
+}
+nav input{
+    width: 100px;
+    border: 1px solid #444;
+    padding: 0.125rem 0.5rem 0.125rem 1.5rem;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-color: inherit;
+    background-position: 5% 50%;
+}
+.navmenu{
+    display: flex;
+}
+.search{
+    padding: 0.4rem 0.8rem 0.3rem;
+    border: none;
+}
+input:focus{
+    background-color: #f9f9f9;
+    background-image: url();
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
+.midsection{
+    clear: both;
+    content: "";
+    display: table;
+}
+.photos{
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+.menu-left{
+    justify-content: space-between;
+}
+div.menu-right{
+    flex-basis: 50%;
+    align-items: center;
+}
+.menu-right a{
+    display: inline-block;
+    width: 100%;
+    padding: 0 0.4rem;
+    vertical-align: middle;
+    border-right: 1px solid #ccc;
+}
+div.policy{
+    padding: 1rem 0;
+}
+section .minsection{
+    color: #fff;
+    text-align: center;
+    padding: 30px 100px 60px;
+}
+section .minsection a{
+    color: #fff;
+}
+.header .sub-header .description{
+    cursor: pointer;
+}
+footer{
+    font-size: 0.589rem;
+    padding: 20px 180px;
+    color: #444;
+}
+footer a{
+    color: #08c;
+    font-size: 0.95em;
+    font-weight: 600;
+}
+.menu-right a{
+    display: inline-block;
+    width: 100%;
+    padding: 0 0.4rem;
+    vertical-align: middle;
+    border-right: 1px solid #ccc;
+}
+div.menu-right{
+    flex-basis: 50%;
+    align-items: center;
+}
+div.address{
+    flex-basis: 50%;
+}
+a{
+    text-decoration: none;
+}
